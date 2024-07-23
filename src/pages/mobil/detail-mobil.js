@@ -188,7 +188,7 @@ export default function DetailMobil() {
         ))}
         
       </div>
-{isModalOpen && (
+  {isModalOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white dark:bg-gray-800 p-6 rounded-lg max-w-lg w-full relative">
             <h2 className="text-2xl font-semibold mb-4">Syarat dan Ketentuan Penyewaan Mobil</h2>
